@@ -1,0 +1,56 @@
+.team-content {
+  padding-bottom: 50px;
+}
+.team-member {
+  img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .team-member-overlay {
+    position: absolute;
+    background: black;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      opacity: .9;
+    }
+
+    .team-memeber-overlay-info {
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      left: 0;
+
+      .team-member-name {
+        font-size: 11px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: $main-color;
+      }
+
+      .team-memeber-job {
+        color: white;
+        font-size: 16px;
+        padding-bottom: 20px;
+      }
+
+      .member-social-links {
+        list-style: none;
+        padding: 0;
+
+        li {
+          display: inline;
+          padding: 10px;
+          color: white;
+        }
+      }
+    }
+  }
+}

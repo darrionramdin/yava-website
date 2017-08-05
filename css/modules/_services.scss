@@ -1,0 +1,25 @@
+.service {
+  padding-top: 75px;
+  .service-info {
+    margin-left: 60px;
+
+    .service-title {
+      font-size: 12px;
+      font-weight: $text-bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $header-color;
+    }
+    .service-description {
+      font-size: 15px;
+      font-family: $primary-font;
+      line-height: 30px;
+      padding: 15px 0;
+    }
+  }
+}
+
+.icon {
+  font-size: 35px;
+  float: left;
+}

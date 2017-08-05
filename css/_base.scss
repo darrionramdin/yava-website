@@ -1,0 +1,23 @@
+h1 {
+  font-size: 70px;
+}
+
+h6 {
+  font-size: 18px;
+}
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+section {
+  font-family: $secondary-font;
+  padding-bottom: 90px;
+}

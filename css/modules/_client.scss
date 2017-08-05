@@ -1,0 +1,42 @@
+.client-content {
+  padding-bottom: 30px;
+  background-image: url(/img/clients.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .clients-heading {
+    padding-top: 100px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .dash {
+    border-color: white;
+  }
+
+  .quote {
+    padding-top: 48px;
+
+    .person-name {
+      text-transform: uppercase;
+      color: white;
+      font-weight: $text-bold;
+    }
+
+    .quote-content {
+      font-size: 18px;
+      font-family: $about-font;
+      line-height: 30px;
+      letter-spacing: 1px;
+      padding: 15px 0;
+      color: #ccc;
+    }
+
+    .company {
+      @extend .person-name;
+    }
+  }
+}

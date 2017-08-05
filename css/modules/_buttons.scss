@@ -1,0 +1,31 @@
+.buttons {
+  padding: 20px 0;
+}
+
+.button {
+  font-family: $secondary-font;
+  padding: 10px 30px;
+  margin-right: 10px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.button--outlined {
+  transition: all 0.5s;
+  border: 1px solid white;
+  &:hover {
+    border-color: $main-color;
+    color: $main-color;
+  }
+}
+
+.button--filled {
+  transition: all 0.5s;
+  border: 1px solid $main-color;
+  background-color: $main-color;
+  &:hover {
+    border: 1px solid white;
+    background-color: transparent;
+  }
+}

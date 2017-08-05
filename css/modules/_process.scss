@@ -1,0 +1,29 @@
+.process-content{
+  background: black;
+  .process {
+    padding-top: 80px;
+
+    .icon {
+      font-size:50px;
+      color: white;
+    }
+    .process-info {
+      margin-left: 70px;
+      padding-top: 5px;
+
+      .process-title {
+        font-size: 12px;
+        font-weight: $text-bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: white;
+      }
+      .process-description {
+        font-size: 15px;
+        font-family: $primary-font;
+        line-height: 30px;
+        padding: 15px 0;
+      }
+    }
+  }
+}

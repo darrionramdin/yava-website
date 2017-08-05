@@ -1,0 +1,72 @@
+.pricing-content {
+  padding-bottom: 30px;
+}
+
+.price-table {
+  border: 1px solid #eee;
+  padding-bottom: 30px;
+
+  .table-header {
+    padding-top: 20px;
+    font-weight: $text-bold;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  hr {
+    padding: 20px 0;
+    width: 80%;
+  }
+
+  .price {
+    padding-bottom: 20px;
+    color: black;
+    h4 {
+      font-size: 30px;
+      span {
+        font-size: 60px;
+      }
+    }
+    span.time {
+      font-weight: $text-bold;
+      text-transform: uppercase;
+    }
+  }
+
+  .features {
+    list-style: none;
+    padding: 0;
+    li {
+      font-family: $primary-font;
+      line-height: 30px;
+      font-size: 15px;
+      padding: 4px 0;
+    }
+  }
+
+  .purchase-btn {
+    color: white;
+    margin: 0 20px;
+    padding: 14px;
+    display: block;
+    background: $main-color;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn--nofill {
+    background: 0;
+    color: black;
+    border: 1px solid #eee;
+
+    &:hover {
+      @extend .purchase-btn;
+    }
+  }
+}
+
+.table--fill {
+  background: #111;
+  .table-header, .price, .features {
+    color: white;
+  }
+}

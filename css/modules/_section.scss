@@ -1,0 +1,27 @@
+section {
+  padding-bottom: 0;
+}
+.section-title, .section-sub-title {
+  margin: 0;
+  text-align: center;
+}
+.section-title {
+  padding-top: 90px;
+  padding-bottom: 15px;
+  font-size: 11px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: $main-color;
+}
+
+.section-sub-title {
+  color: $header-color;
+  font-weight: $text-light;
+  font-size: 28px;
+  padding-bottom: 100px;
+}
+
+.dash {
+  width: 25px;
+  border: 1px solid $main-color;
+}

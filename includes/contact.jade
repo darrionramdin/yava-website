@@ -1,0 +1,41 @@
+section#contact(data-scroll-index="7")
+  .contact-content
+    .container
+      h4.section-title Conact Us
+      h3.section-sub-title Get In Touch
+      .row
+        .col-md-4
+          .contact-info.text-center
+            span.contact-icon
+              i.fa.fa-phone
+            span.contact-details +20 01025178918
+        .col-md-4
+          .contact-info.text-center
+            span.contact-icon
+              i.fa.fa-envelope-o
+            span.contact-details Hisham beone@gmail.com
+        .col-md-4
+          .contact-info.text-center
+            span.contact-icon
+              i.fa.fa-map-marker
+            span.contact-details 21 Jumpe Street
+      .contact-form
+        .row
+          .col-md-6
+            .form-group
+              input(type="text", name="name", placeholder="Name *", required="required", data-error="This field is required")
+          .col-md-6
+            .form-group
+              input(type="text", name="email", placeholder="email *", required="required", data-error="This field is required")
+          
+        .row
+          .col-md-12
+            .form-group
+              input(type="text", name="subject", placeholder="Subject")
+        .row
+          .col-md-12
+            .form-group
+              textarea(type="text", name="message", placeholder="Message", required="required", rows="4")
+        .row
+          .col-md-3
+            input(type="submit", value="Send message").submit-btn
