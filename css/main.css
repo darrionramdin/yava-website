@@ -6046,7 +6046,7 @@ section {
 .header-content {
   height: 100vh;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/header-img.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header-img.jpg);
 }
 
 .header-info {
@@ -6409,7 +6409,7 @@ section {
 
 .client-content {
   padding-bottom: 30px;
-  background-image: url(/img/clients.jpg);
+  background-image: url(../img/clients.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -6497,7 +6497,7 @@ section {
 
 .followus-content {
   padding-bottom: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/follow-us.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/follow-us.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -6602,7 +6602,7 @@ section {
 
 .contact-content {
   padding-bottom: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/follow-us.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/follow-us.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
